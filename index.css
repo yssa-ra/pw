@@ -1,5 +1,5 @@
 html {
-    background-color: #56baed;
+    background-color: #ffffff;
   }
   
   body {
@@ -71,22 +71,17 @@ html {
   
   h2.active {
     color: #0d0d0d;
-    border-bottom: 2px solid #5fbae9;
+    border-bottom: 2px solid #ffffff;
   }
-  
-  
-  
-  
-  
-  input[type=button], input[type=submit], input[type=reset]  {
+  .btn{
+    color:#ffffff;
     background-color: #e66f92;
     border: none;
-    color: white;
     padding: 15px 80px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    text-transform: uppercase;
+    text-transform:uppercase ;
     font-size: 13px;
     -webkit-box-shadow: 0 10px 30px 0 rgba(223, 102, 138, 0.568);
     box-shadow: 0 10px 30px 0 rgba(223, 102, 138, 0.568);;
@@ -98,7 +93,9 @@ html {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    
   }
+  
   
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
     background-color: #eb8da9;
@@ -222,6 +219,8 @@ html {
   }
   
   .fadeIn.first {
+    margin-top: 15px;
+    margin-bottom: 15px;
     -webkit-animation-delay: 0.4s;
     -moz-animation-delay: 0.4s;
     animation-delay: 0.4s;
@@ -238,12 +237,12 @@ html {
     -moz-animation-delay: 0.8s;
     animation-delay: 0.8s;
   }
-  
-  .fadeIn.fourth {
+  .btn {
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
     animation-delay: 1s;
   }
+    
   
   
   .underlineHover:after {
@@ -276,4 +275,3 @@ html {
   #icon {
     width:60%;
   }
-  
